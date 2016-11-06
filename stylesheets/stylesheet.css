@@ -245,3 +245,16 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Comments */
+
+#comments_session{
+    padding: 1em;
+}
+#comments_session > h3{
+    font-size: 1.5em;
+}
+#comments_session .comments{
+    border-bottom: 1px dashed #b5e853;
+    margin: 0px 0px 1em 0px;
+}
