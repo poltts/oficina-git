@@ -255,6 +255,28 @@ a {
     font-size: 1.5em;
 }
 #comments_session .comments{
-    border-bottom: 1px dashed #b5e853;
-    margin: 0px 0px 1em 0px;
+    border-top: 1px dashed #666;
+    margin: 0px;
+    padding: .5em;
 }
+#comments_session .comments:hover{
+  background: rgba(0,0,0,.1);
+  transition: background .3s ease-in;
+  -webkit-transition: background .3s ease-in;
+  -moz-transition: background .3s ease-in;
+  -o-transition: background .3s ease-in;
+}
+
+.comments p:first-child{
+  color: #999;
+} 
+.comments p:first-child a:active,
+  .comments p:first-child a:link,
+  .comments p:first-child a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+.comments p:first-child a:hover{
+  color: #63c0f5;
+  text-decoration: underline;
+  }
